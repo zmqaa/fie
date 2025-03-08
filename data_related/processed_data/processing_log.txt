@@ -1,0 +1,62 @@
+[2025-03-07 23:39:48] 开始数据加载...
+[2025-03-07 23:39:48] 数据已保存至: processed_data\data_loaded.csv
+[2025-03-07 23:39:48] 
+开始异常值处理...
+[2025-03-07 23:39:48] 数据已保存至: processed_data\data_cleaned.csv
+[2025-03-07 23:39:48] 
+开始GAN缺失值填充...
+[2025-03-07 23:39:48] 错误: 'GANImputer' object has no attribute 'mask'
+[2025-03-07 23:39:48] 
+处理过程中出现错误: 'GANImputer' object has no attribute 'mask'
+[2025-03-07 23:41:50] 开始数据加载...
+[2025-03-07 23:41:50] 数据已保存至: processed_data\data_loaded.csv
+[2025-03-07 23:41:50] 
+开始异常值处理...
+[2025-03-07 23:41:50] 数据已保存至: processed_data\data_cleaned.csv
+[2025-03-07 23:41:50] 
+开始GAN缺失值填充...
+[2025-03-07 23:41:51] 错误: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 123, but received input with shape (32, 100)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(32, 100), dtype=float32)
+  • training=False
+  • mask=None
+[2025-03-07 23:41:51] 
+处理过程中出现错误: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 123, but received input with shape (32, 100)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(32, 100), dtype=float32)
+  • training=False
+  • mask=None
+[2025-03-07 23:44:43] 开始数据加载...
+[2025-03-07 23:44:43] 数据已保存至: processed_data\data_loaded.csv
+[2025-03-07 23:44:43] 
+开始异常值处理...
+[2025-03-07 23:44:43] 数据已保存至: processed_data\data_cleaned.csv
+[2025-03-07 23:44:43] 
+开始GAN缺失值填充...
+[2025-03-07 23:44:43] 错误: cannot access local variable 'batch_outputs' where it is not associated with a value
+[2025-03-07 23:44:43] 
+处理过程中出现错误: cannot access local variable 'batch_outputs' where it is not associated with a value
+[2025-03-07 23:50:05] 开始数据加载...
+[2025-03-07 23:50:05] 数据已保存至: processed_data\data_loaded.csv
+[2025-03-07 23:50:05] 
+开始异常值处理...
+[2025-03-07 23:50:06] 数据已保存至: processed_data\data_cleaned.csv
+[2025-03-07 23:50:06] 
+开始GAN缺失值填充...
+[2025-03-07 23:51:07] 数据已保存至: processed_data\data_imputed.csv
+[2025-03-07 23:51:07] 
+开始特征工程...
+[2025-03-07 23:51:07] 
+准备深度学习数据序列...
+[2025-03-07 23:51:16] 
+保存最终处理结果...
+[2025-03-07 23:51:17] 处理报告已生成: processed_data\processing_report.txt
+[2025-03-07 23:51:17] 数据处理完成！
+[2025-03-07 23:51:17] 
+总处理时间: 71.62 秒

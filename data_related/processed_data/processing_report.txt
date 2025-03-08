@@ -1,0 +1,108 @@
+=== 数据处理报告 ===
+
+1. 数据基本信息
+-----------------
+处理时间: 2025-03-07 23:51:17
+原始数据文件: data.csv
+最终数据形状: (7299, 80)
+LSTM序列形状: (7285, 14, 41)
+标签数据形状: (7285,)
+
+2. 特征信息
+-----------------
+数值型特征:
+- key_0
+- T
+- Po
+- P
+- U
+- tavg
+- tmin
+- tmax
+- prcp
+- wspd
+- rainfall_percentile
+- monthly_rain_mean
+- monthly_rain_std
+- monthly_rain_days
+- continuous_rain_days
+- continuous_dry_days
+- month
+- day_of_year
+- month_sin
+- month_cos
+- day_sin
+- day_cos
+- T_rolling_mean_3
+- T_rolling_std_3
+- T_trend_3
+- T_rolling_mean_7
+- T_rolling_std_7
+- T_trend_7
+- T_rolling_mean_14
+- T_rolling_std_14
+- T_trend_14
+- U_rolling_mean_3
+- U_rolling_std_3
+- U_trend_3
+- U_rolling_mean_7
+- U_rolling_std_7
+- U_trend_7
+- U_rolling_mean_14
+- U_rolling_std_14
+- U_trend_14
+- P_rolling_mean_3
+- P_rolling_std_3
+- P_trend_3
+- P_rolling_mean_7
+- P_rolling_std_7
+- P_trend_7
+- P_rolling_mean_14
+- P_rolling_std_14
+- P_trend_14
+- prcp_rolling_mean_3
+- prcp_rolling_std_3
+- prcp_trend_3
+- prcp_historical_mean_3
+- prcp_historical_diff_3
+- prcp_rolling_mean_7
+- prcp_rolling_std_7
+- prcp_trend_7
+- prcp_historical_mean_7
+- prcp_historical_diff_7
+- prcp_rolling_mean_14
+- prcp_rolling_std_14
+- prcp_trend_14
+- prcp_historical_mean_14
+- prcp_historical_diff_14
+- is_extreme_rain
+- rain_days
+- extreme_rain_days
+- temp_humidity_index
+- pressure_trend
+- temp_pressure_index
+- humidity_change
+- weather_change_pattern
+- T_weighted
+- U_weighted
+- P_weighted
+- temp_humidity_comb
+
+3. 降水数据统计
+-----------------
+降水量统计:
+count    7299.000000
+mean        0.488966
+std         0.187415
+min         0.000000
+25%         0.499995
+50%         0.499995
+75%         0.513234
+max         1.000000
+Name: prcp, dtype: float64
+
+极端降水事件数量: 687
+
+4. 数据质量信息
+-----------------
+所有特征均无缺失值
